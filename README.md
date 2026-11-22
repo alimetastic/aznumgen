@@ -5,7 +5,7 @@
 <h1 align="center">aznumgen</h1>
 
 <p align="center">
-  A desktop GUI for generating Azerbaijani license plate images, based on the AZS 599-2015 standard.
+  A desktop GUI for generating Azerbaijani license plate images.
 </p>
 
 <p align="center">
