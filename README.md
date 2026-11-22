@@ -20,7 +20,6 @@
 - 14 plate types: standard, passenger transport (blue), transit, honorary consul, diplomatic (D / T), military, plus the square type II, III and IV (motorcycle) layouts
 - Type a number or hit **Random** for a valid one (current year on transit plates)
 - Input is fitted to the plate's format automatically: wrong characters are skipped, missing ones filled in
-- Only letters allowed by the standard are used (no I, Q, W)
 - Region name and year shown under the preview
 - Dashes on/off for plates that have them
 - Exports a transparent PNG at 4 px/mm (a standard 520×110 plate is 2080×440 px)
