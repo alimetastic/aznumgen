@@ -14,8 +14,6 @@
 
 
 ## Features
-
-- 15 plate types from the AZS 599-2015 standard: standard, passenger transport (blue), transit, honorary consul, diplomatic (D / T), military, heavy machinery, Type III and Type IV (motorcycle)
 - Rectangular and square plates, with exact dimensions from the standard
 - Region name for every region code, including 3-digit heavy machinery codes (100, 110, 185)
 - Options for dashes and the RFID chip frame
