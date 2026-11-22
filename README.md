@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/AZNUMGEN_logo.png" width="520" alt="aznumgen logo">
+  <img src="AZNUMGEN_logo.png" width="520" alt="aznumgen logo">
 </p>
 
 <p align="center">
