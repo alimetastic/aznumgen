@@ -1,44 +1,56 @@
 <p align="center">
-  <img src="assets/logo.png" width="180" alt="aznumgen logo">
+  <img src="assets/logo.png" width="520" alt="aznumgen logo">
 </p>
-
-<h1 align="center">aznumgen</h1>
 
 <p align="center">
   A desktop GUI for generating Azerbaijani license plate images.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
-  <img src="https://img.shields.io/badge/platform-Windows-lightgrey" alt="Platform">
+  <img src="https://img.shields.io/github/v/release/alimetastic/aznumgen" alt="Release">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey" alt="Platform">
   <img src="https://img.shields.io/github/license/alimetastic/aznumgen" alt="License">
 </p>
 
 
 ## Features
 
-
+- 15 plate types from the AZS 599-2015 standard: standard, passenger transport (blue), transit, honorary consul, diplomatic (D / T), military, heavy machinery, Type III and Type IV (motorcycle)
+- Rectangular and square plates, with exact dimensions from the standard
+- Region name for every region code, including 3-digit heavy machinery codes (100, 110, 185)
+- Options for dashes and the RFID chip frame
+- Light and dark mode
+- Export as a high-resolution PNG (4 px per mm)
 
 ## Screenshots
 
-![Main window](assets/app.png)
-
-## Examples
-
-| Standard | Passenger transport |
+| Light mode | Dark mode |
 |---|---|
-| ![Standard](assets/standard.png) | ![Passenger transport](assets/blue.png) |
+| ![Light mode](assets/app-light.png) | ![Dark mode](assets/app-dark.png) |
 
-| Transit | Diplomatic |
+| Heavy machinery | Motorcycle |
 |---|---|
-| ![Transit](assets/transit.png) | ![Diplomatic](assets/diplomatic.png) |
+| ![Heavy machinery](assets/heavy-machinery.png) | ![Motorcycle](assets/motorcycle.png) |
 
-| Type II | Type III | Type IV (motorcycle) |
-|---|---|---|
-| ![Type II](assets/type2.png) | ![Type III](assets/type3.png) | ![Type IV](assets/type4.png) |
+| Without dashes and chip |
+|---|
+| ![Without dashes and chip](assets/options.png) |
 
 ## Download
 
+Get the latest version from [Releases](https://github.com/alimetastic/aznumgen/releases/latest). No Python needed.
+
+**Windows (64-bit):** download `aznumgen-winx64-v0.1.zip`, unzip it and run `aznumgen.exe`.
+Windows may show "Windows protected your PC" the first time. Click **More info → Run anyway**.
+
+**Linux (x86_64, Ubuntu 24.04 or newer):**
+
+```bash
+tar -xzf aznumgen-x86_64-v0.1.tar.gz
+./aznumgen/install.sh
+```
+
+Then search for "Azərbaycan nömrə generatoru" in your app menu.
 
 ## Run from source
 
@@ -49,19 +61,10 @@ pip install -r requirements.txt
 python aznumgen.py
 ```
 
-## Build the .exe yourself
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed --name aznumgen --icon assets/logo.ico aznumgen.py
-```
-
-The executable will be in `dist/`.
-
 ## Fonts
 
 For the most accurate look, put `AZPlate.otf` (77 mm characters) and `AZPlate50.otf` (50 mm characters) next to `aznumgen.py`.
-Without them the app falls back to Bahnschrift, then Arial, then DejaVu Sans.
+Without them the app falls back to Bahnschrift, then Arial, then DejaVu Sans. The release builds already include both fonts.
 
 ## Disclaimer
 
