@@ -39,9 +39,6 @@
 
 ## Download
 
-Grab `aznumgen.exe` from the latest release.
-
-Windows SmartScreen may warn about the unsigned .exe, click **More info - Run anyway**.
 
 ## Run from source
 
