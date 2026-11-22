@@ -24,15 +24,15 @@
 
 | Light mode | Dark mode |
 |---|---|
-| ![Light mode](assets/app-light.png) | ![Dark mode](assets/app-dark.png) |
+| ![Light mode](app-light.png) | ![Dark mode](app-dark.png) |
 
 | Heavy machinery | Motorcycle |
 |---|---|
-| ![Heavy machinery](assets/heavy-machinery.png) | ![Motorcycle](assets/motorcycle.png) |
+| ![Heavy machinery](heavy-machinery.png) | ![Motorcycle](motorcycle.png) |
 
 | Without dashes and chip |
 |---|
-| ![Without dashes and chip](assets/options.png) |
+| ![Without dashes and chip](options.png) |
 
 ## Download
 
