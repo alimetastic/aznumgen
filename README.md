@@ -51,18 +51,9 @@ tar -xzf aznumgen-x86_64-v0.1.tar.gz
 
 Then search for "Azərbaycan nömrə generatoru" in your app menu.
 
-## Run from source
-
-```bash
-git clone https://github.com/alimetastic/aznumgen.git
-cd aznumgen
-pip install -r requirements.txt
-python aznumgen.py
-```
-
 ## Fonts
 
-For the most accurate look, put `AZPlate.otf` (77 mm characters) and `AZPlate50.otf` (50 mm characters) next to `aznumgen.py`.
+For the most accurate look, put `AZPlate.otf` (77 mm characters) and `AZPlate50.otf` (50 mm characters).
 Without them the app falls back to Bahnschrift, then Arial, then DejaVu Sans. The release builds already include both fonts.
 
 ## Disclaimer
