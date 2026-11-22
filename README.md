@@ -38,8 +38,9 @@
 
 Get the latest version from [Releases](https://github.com/alimetastic/aznumgen/releases/latest). No Python needed.
 
-**Windows (64-bit):** download `aznumgen-winx64-v0.1.zip`, unzip it and run `aznumgen.exe`.
-Windows may show "Windows protected your PC" the first time. Click **More info → Run anyway**.
+**Windows (64-bit):** 
+Download `aznumgen-winx64-v0.1.zip`, unzip it and run `aznumgen.exe`.
+Windows may show "Windows protected your PC" the first time. Click **More info - Run anyway**.
 
 **Linux (x86_64, Ubuntu 24.04 or newer):**
 
